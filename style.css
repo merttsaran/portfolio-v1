@@ -21,11 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-img {
-  width: 100%;
-  display: block;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -105,30 +100,21 @@ a {
 }
 
 .home {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 0 5%;
-  margin-top: 80px; 
-}
-
-.home {
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 5%;
-  margin-top: 80px;
+  margin-top: 80px; 
   gap: 100px;
-  min-height: 100vh;
 }
 
 .home-content {
   flex: 1;
   animation: fadeUp 1s ease forwards;
-  opacity: 0;
+  opacity: 1;
   width: 100%;
   max-width: 900px;
-  text-align: left;  
 }
 
 @keyframes fadeUp {
@@ -144,7 +130,7 @@ a {
 
 .home-content h1 {
   font-size: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #0f172a;
 
 }
@@ -156,7 +142,7 @@ a {
 }
 
 .home-content p {
-  max-width: 500px;
+  max-width: 750px;
   color: #6b7280;
 }
 
@@ -173,11 +159,12 @@ a {
 }
 
 .home-img img:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .home-content span {
   color: #3b82f6;
+  font-weight: 600;
 }
 
 .about {
