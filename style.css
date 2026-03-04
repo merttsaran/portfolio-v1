@@ -76,7 +76,21 @@ a {
 
 .navbar-container a:hover {
   color: #2563eb;
-  
+}
+
+.navbar-container a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #3b82f6;
+  transition: 0.3s;
+}
+
+.navbar-container a:hover::after {
+  width: 100%;
 }
 
 .home {
@@ -99,6 +113,19 @@ a {
 
 .home-content {
   flex: 1;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+ }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .home-content h1 {
@@ -128,6 +155,11 @@ a {
   max-width: 350px;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  transition: 0.4s;
+}
+
+.home-img img:hover {
+  transform: scale(1.05);
 }
 
 .home-content span {
@@ -151,4 +183,22 @@ a {
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #3b82f6;
+  transform: translateY(-5px);
 }
