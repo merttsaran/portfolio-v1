@@ -1,0 +1,1 @@
+"This is the first version of my portfolio. I am currently learning JavaScript, HTML, and CSS to transition from my 8-year logistics background into software development. Stay tuned for v2!"
