@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 html {
@@ -13,6 +16,9 @@ body {
   background-color: #f1f5f9;
   color: #111;
   line-height: 1.6;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 img {
@@ -53,19 +59,24 @@ a {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  z-index: 100;
+  filter: drop-shadow(10px);
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
   color: #0f172a;
-  
+  transition: 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .navbar-container {
   display: flex;
   gap: 30px;
-  
 }
 
 .navbar-container a {
@@ -102,19 +113,22 @@ a {
 }
 
 .home {
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 5%;
   margin-top: 80px;
-  gap: 50px;
+  gap: 100px;
+  min-height: 100vh;
 }
 
 .home-content {
   flex: 1;
   animation: fadeUp 1s ease forwards;
   opacity: 0;
+  width: 100%;
+  max-width: 900px;
+  text-align: left;  
 }
 
 @keyframes fadeUp {
@@ -129,14 +143,14 @@ a {
 }
 
 .home-content h1 {
-  font-size: 42px;
+  font-size: 50px;
   margin-bottom: 15px;
   color: #0f172a;
 
 }
 
 .home-content h3 {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 15px;
   color: #6b7280;
 }
