@@ -160,7 +160,8 @@ a {
 }
 
 .home-img img:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
 }
 
 .home-content span {
@@ -170,10 +171,12 @@ a {
 
 .about {
   background-color: #ffffff;
+  padding: 80px 20px;
 }
 
 .projects {
   background-color: #f3f4f6;
+  padding: 80px 20px;
 }
 
 .contact {
@@ -203,22 +206,6 @@ a {
 .social-icons a:hover {
   color: #3b82f6;
   transform: translateY(-5px);
-}
-
-.projects {
-  padding: 80px 20px;
-}
-
-.projects span {
-  color:#3b82f6;
-}
-
-.about {
-  padding: 80px 20px;
-}
-
-.contact {
-  padding: 5px 20px;
 }
 
 .project-card {
