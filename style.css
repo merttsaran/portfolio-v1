@@ -188,6 +188,7 @@ a {
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
+  font-size: 14px;
 }
 
 .social-icons {
@@ -232,4 +233,15 @@ a {
 
 .project-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .home-content, .home-img {
+    max-width: 100%;
+  }
 }
