@@ -1,15 +1,48 @@
-# Mert Saran - Portfolio
+# Portfolio v1 – Personal Web Showcase
 
-This is the first version of my portfolio. I am currently transitioning from my **8-year logistics background** into software development. My focus is on **HTML5, CSS3, and JavaScript**, and I am actively building projects to showcase my skills.
+![Portfolio Banner](https://via.placeholder.com/900x200?text=Mert+Saran+Portfolio)  
 
-## About This Portfolio
-This portfolio is a work in progress (v1), highlighting my journey from logistics to software development. I plan to continuously update it with more projects, demonstrating practical applications of modern web technologies.
-
-## First Project
-My first project is live on this portfolio. I built it with guidance from **AI tools** and **YouTube tutorial videos**, which helped me learn and implement core concepts.  
-
-I want to acknowledge the invaluable help of these resources in bringing this project to life.
+This is my **first personal portfolio**, built as a mini project to demonstrate my skills in **HTML5**, **CSS3**, and modern web layout techniques.
 
 ---
 
-Stay tuned for v2 with more projects and enhancements!
+## 🚀 About This Project
+
+- Clean, professional design with **flexbox** and responsive layout.
+- Subtle **animations** and **hover effects** for modern UX.
+- Highlights my transition from a **Senior Logistics Specialist at Hapag‑Lloyd** to a **Full-Stack Developer**.
+- Showcases my **ability to build functional, well-structured web pages**.
+- Includes **social links** for GitHub, LinkedIn, and direct contact.
+
+---
+
+## 🛠 Skills & Tools
+
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+- Guided and assisted by **AI tools** to optimize code structure.
+- Inspired and taught via **YouTube tutorials**, applying best practices for modern frontend development.
+
+---
+
+## 🎯 Why It Matters
+
+This mini project is designed to **showcase practical web development skills**, while also reflecting my professional background and problem-solving mindset. It serves as a **strong starting point for recruiters** to understand my skills and approach to building projects.
+
+---
+
+## 🔮 Next Steps
+
+- Add more projects showcasing **JavaScript interactivity** and **full-stack capabilities**.
+- Continuously update and refine portfolio design for a **professional, polished presentation**.
+
+---
+
+## 📫 Contact
+
+- [GitHub](https://github.com/merttsaran)
+- [LinkedIn](https://linkedin.com/in/mert-saran)
+- Email: merttsaran@gmail.com
