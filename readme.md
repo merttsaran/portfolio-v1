@@ -1,6 +1,6 @@
 # Portfolio v1 – Personal Web Showcase
 
-![Portfolio Banner](https://via.placeholder.com/900x200?text=Mert+Saran+Portfolio)  
+![Portfolio Banner](https://raw.githubusercontent.com/merttsaran/portfolio-v1/main/main.jpg)  
 
 This is my **first personal portfolio**, built as a mini project to demonstrate my skills in **HTML5**, **CSS3**, and modern web layout techniques.
 
@@ -43,6 +43,6 @@ This mini project is designed to **showcase practical web development skills**, 
 
 ## 📫 Contact
 
-- [GitHub](https://github.com/merttsaran)
-- [LinkedIn](https://linkedin.com/in/mert-saran)
-- Email: merttsaran@gmail.com
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/merttsaran)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mert-saran)
+[![Email](https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:merttsaran@gmail.com)
