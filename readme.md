@@ -1,7 +1,5 @@
 # Portfolio v1 – Personal Web Showcase
 
-![Portfolio Banner](https://raw.githubusercontent.com/merttsaran/portfolio-v1/main/main.jpg)  
-
 This is my **first personal portfolio**, built as a mini project to demonstrate my skills in **HTML5**, **CSS3**, and modern web layout techniques.
 
 ---
